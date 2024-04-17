@@ -1,8 +1,4 @@
-<h1id="colorfulText">SOLID_D4RPL2A</h1>
-
-Tugas dan latihan SOLID Principles D4RPL2A (2024)
-
-
+<style>
 #colorfulText {
   animation: changeColor 5s infinite; /* Mengatur animasi perubahan warna */
 }
@@ -14,16 +10,10 @@ Tugas dan latihan SOLID Principles D4RPL2A (2024)
   75% { color: orange; } /* Berubah menjadi oranye pada 75% waktu */
   100% { color: purple; } /* Kembali ke warna awal pada 100% waktu */
 }
+</style>
 
-function getRandomColor() {
-  var letters = '0123456789ABCDEF';
-  var color = '#';
-  for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
 
-setInterval(function(){
-  document.getElementById("colorfulText").style.color = getRandomColor(); /* Mengubah warna secara acak setiap beberapa waktu */
-}, 1000); /* Ganti warna setiap 1 detik */
+<h1 id="colorfulText">SOLID_D4RPL2A</h1>
+
+Tugas dan latihan SOLID Principles D4RPL2A (2024)
+
