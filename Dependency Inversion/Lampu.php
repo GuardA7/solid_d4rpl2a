@@ -1,4 +1,6 @@
 <?php
+include_once("BarangElektronik.php");
+
 class Lampu implements BarangElektronik {
     public function beroperasi(): void {
         echo "Lampu dinyalakan.\n";
@@ -8,4 +10,4 @@ class Lampu implements BarangElektronik {
         echo "Lampu dimatikan.\n";
     }
 }
-
+?>

@@ -1,5 +1,5 @@
 <?php
-
+include_once("BarangElektronik.php");
 
 class Saklar {
     private $item;
@@ -23,6 +23,4 @@ class Saklar {
         $this->saklar();
     }
 }
-
-
 ?>
