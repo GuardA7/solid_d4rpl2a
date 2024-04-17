@@ -1,10 +1,9 @@
 <?php
-include ("KendaraanLIstrik.php");
+include_once("KendaraanListrik.php");
 
-class Mobil extends KendaraanLIstrik {
+class MobilListrik extends KendaraanListrik {
     public function menggunakanBatrei(): void {
         echo "Mobil menggunakan bahan bakar Listrik.\n";
     }
 }
-
 ?>

@@ -1,5 +1,6 @@
 <?php
-include ("VideoGroupManager.php");
+
+include_once("VideoGroupManager.php");
 
 class WhatsApp extends VideoGroupManager {
     public function chat(): void {
