@@ -1,5 +1,6 @@
 <?php
-include ("DBMS.php");
+
+include_once("DBMS.php");
 
 class DBMSConnection {
     public function connect(DBMS $dbms): void {
