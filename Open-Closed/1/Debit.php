@@ -1,6 +1,6 @@
 <?php
-include ("TipePembayaran.php");
 
+include_once("TipePembayaran.php");
 
 class Debit extends TipePembayaran {
     public function memprosesPembayaran(): void {

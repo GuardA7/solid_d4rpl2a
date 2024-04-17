@@ -1,8 +1,8 @@
 <?php
-include ("TipePembayaran.php");
 
+include_once("TipePembayaran.php");
 
-class PembayaranCustomer {
+class PembayaranCostumer {
     public function menerimaPembayaran(TipePembayaran $tipe): void {
         $tipe->memprosesPembayaran();
     }
