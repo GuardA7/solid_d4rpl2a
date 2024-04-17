@@ -1,5 +1,4 @@
 <?php
-include("Mahasiswa.php");
 
 
 class ViewMahasiswa {

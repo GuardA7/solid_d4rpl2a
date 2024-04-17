@@ -1,5 +1,4 @@
 <?php
-include("persegi.php");
 
 class PenghitungPersegi {
     function hitungLuas(Persegi $persegi) {

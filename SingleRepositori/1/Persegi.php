@@ -1,6 +1,5 @@
 <?php
-
-class persegi{
+class Persegi {
     public $sisi;
 
     function __construct(int $sisi){
@@ -11,4 +10,5 @@ class persegi{
         return $this->sisi;
     }
 }
+
 ?>
